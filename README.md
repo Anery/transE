@@ -1,9 +1,9 @@
 # transE
 #### 关于transE：
 
-论文原文：[Translating embeddings for modeling multi-relational data](http://papers.nips.cc/paper/5071-translating-embeddings-for-modeling-multi-rela)
+1、论文原文：[Translating embeddings for modeling multi-relational data](http://papers.nips.cc/paper/5071-translating-embeddings-for-modeling-multi-rela)
 
-[我的一篇笔记]: https://blog.csdn.net/shunaoxi2313/article/details/89766467
+2、[我的一篇笔记](https://blog.csdn.net/shunaoxi2313/article/details/89766467)
 
 #### 1 训练数据
 
