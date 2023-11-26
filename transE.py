@@ -153,14 +153,14 @@ class TransE:
             # 替换head
             rand_head = triple[0]
             while rand_head == triple[0]:
-                rand_head = random.sample(self.entity.keys(),1)[0]
+                rand_head = random.sample(list(self.entity), 1)[0]
             corrupted_triple[0]=rand_head
 
         else:
             # 替换tail
             rand_tail = triple[1]
             while rand_tail == triple[1]:
-                rand_tail = random.sample(self.entity.keys(), 1)[0]
+                rand_tail = random.sample(list(self.entity), 1)[0]
             corrupted_triple[1] = rand_tail
         return corrupted_triple
 
